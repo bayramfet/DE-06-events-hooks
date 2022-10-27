@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Events from './1-events-hooksintro/Events';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Hooks from './2-hooks/Hooks';
+import Counter from './3-classComponents/Counter';
+import Form from './4-form/Form';
+import MouseKeyboard from './5-mouse-keyBoard/MouseKeyboard';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {/* <Events/>
+    <Hooks/>
+    <Counter/> */}
+    {/* <Form/> */}
+    <MouseKeyboard/>
+    {/* <Counter count={10}/> */}
+    
     </div>
   );
 }
